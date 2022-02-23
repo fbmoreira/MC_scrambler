@@ -11,6 +11,5 @@ $(EXEC):
 make debug: congen2debug
 	$(CC) ccongen2.c -o congen2debug $(CDEBUGFLAGS)
 
-
 make clean:
-	rm ccongen2
+	rm congen2
